@@ -1,0 +1,58 @@
+/* navbar style  */
+.navbar{
+    flex-direction: column;
+}
+.navbar ul li{
+    padding: 0px;
+}
+.navbar ul li a{
+    margin: 0px;
+    padding: 2px 10px;
+}
+
+/* home section  */
+#Home p{
+    width: 95%;
+    font-size: 1rem;
+}
+.H-primary{
+    font-size: 1.5rem;
+    padding: 0px;
+}
+div.cam img{
+    padding-left: 2px;
+}
+/* gallery section  */
+#Gallery{
+    margin-top: 100px;
+    grid-template-areas: 
+    'H-primary1 H-primary1 H-primary1'
+    'left mid right';
+}
+
+#Gallery div{
+    height: auto;
+    border: 1px solid rgb(122, 122, 122);
+}
+div.left{
+    width: 4rem;
+}
+div.mid{
+    grid-template-columns: 1fr 1fr;
+}
+div.right{
+    width: 4rem;
+}
+
+/* review style  */
+
+#mytext{
+    width: 50%;
+}
+#Review div{
+    margin: 10px;
+}
+div.btn input{
+    margin: 6px;
+    padding: 4px 10px;
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project css in html</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .head {
+            width: 1345px;
+            background: linear-gradient(150deg, #17b117 60%, #0b750b 60%);
+            margin: 10px;
+            display: inline-block;
+
+        }
+
+        .heading {
+            margin: 4px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .head p {
+            text-align: center;
+            width: 800px;
+            margin: 20px auto;
+            font-size: large;
+        }
+
+        .header {
+            display: inline-block;
+            width: 1345px;
+            margin: 0px 10px;
+            background-color: #2ea1d1;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 6px 4px;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            font-size: medium;
+            cursor: pointer;
+            padding: 6px 52px;
+            background-color: rgb(43 119 231);
+        }
+
+        .MainContainer {
+            width: 1345px;
+            display: flex;
+            margin: 10px;
+        }
+
+        div.mid {
+            width: 550px;
+            height: 450px;
+            box-sizing: border-box;
+        }
+
+        div.Dtl {
+            background-color: #858585;
+            margin: 0px 20px;
+            width: 303px;
+        }
+
+        div.DtlSub {
+            width: 250px;
+            margin: 6px 20px;
+            font-size: x-small;
+            background-color: #858585;
+        }
+
+        div.midProfile {
+            width: 550px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            /* display: grid;
+            grid-template-columns: 5fr 1fr 5fr; */
+        }
+
+        div.midProfile1,
+        div.midProfile2,
+        div.midProfile3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .profile,
+        .profile2,
+        .profile3 {
+            margin: 4px 10px;
+            padding: 2px 4px;
+            width: fit-content;
+            background-color: rgb(128, 255, 128);
+
+        }
+
+        div.MidBottom {
+            margin: 32px 20px;
+            padding: 2px 0px;
+        }
+
+        p.MidBottom1 {
+            width: fit-content;
+            background-color: rgb(128, 255, 128);
+            float: right;
+        }
+
+        p.MidBottom2 {
+            width: fit-content;
+            background-color: rgb(128, 255, 128);
+            margin-top: 10px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+
+        }
+
+        p.MidBottom3 {
+            width: fit-content;
+            background-color: rgb(128, 255, 128);
+            float: left;
+            margin-top: -5px;
+        }
+
+        div.right {
+            width: 378px;
+            height: 450px;
+            background: linear-gradient(140deg, rgb(230, 44, 90) 30%, rgb(141, 16, 47) 30%);
+        }
+
+        div.right h3 {
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: underline;
+        }
+
+        div.RightTop {
+            text-align: justify;
+            padding: 20px;
+            font-size: large;
+            color: antiquewhite;
+        }
+
+        div.left {
+            display: flex;
+            flex-direction: column;
+            width: 545px;
+            height: 450px;
+        }
+
+        div.LeftTop {
+            height: 580px;
+            background: linear-gradient(160deg, #2ea1d1 30%, #16698d 30%);
+            text-align: justify;
+            padding: 10px 20px;
+            font-size: large;
+            color: antiquewhite;
+        }
+
+        div.LeftTop h3 {
+            margin-bottom: 20px;
+            color: black;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        div.LeftBottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        div.LeftBottom1 {
+            background-color: #2ea1d1;
+            height: 80px;
+            width: 110px;
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="heading">
+            <h2>This Is Practice Page</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sunt ipsum doloribus magnam quis? Ducimus
+            quasi repellat quae voluptas numquam quas cumque sed. Laborum eius ratione ipsam.
+        </p>
+    </div>
+    <header class="header">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </header>
+
+    <div class="MainContainer">
+        <div class="left">
+            <div class="LeftTop">
+                <h3>Our vision</h3>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quam expedita
+                repudiandae ullam molestias saepe quaerat beatae atque quibusdam. Nobis sed non aliquid enim ratione,
+                quos numquam vero ea. Libero eum voluptatibus earum maiores non nostrum porro sint et. Voluptatum sint
+                ut vel totam ea deserunt fuga, et possimus aut, quo adipisci voluptas accusamus beatae quibusdam numquam
+                nemo obcaecati. Totam!
+            </div>
+            <div class="LeftBottom">
+                <div class="LeftBottom1"></div>
+                <div class="LeftBottom1"></div>
+                <div class="LeftBottom1"></div>
+                <div class="LeftBottom1"></div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="MidTop">
+                <div class="Dtl">
+                    <h3>Details</h3>
+                </div>
+                <div class="DtlSub">Details about company profile</div>
+                <div class="midProfile">
+                    <div class="midProfile1">
+                        <div class="profile">Name Of The Company </div>
+                        <div class="profile">Number of location&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile">Number of employees</div>
+                        <div class="profile">Founded &nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile">Founder &nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile">Operating income </div>
+                        <div class="profile">Type of industry &nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile">Name of website
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+                    </div>
+                    <div class="midProfile2">
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                        <div class="profile2"> : </div>
+                    </div>
+                    <div class="midProfile3">
+                        <div class="profile3">Reliance Retails &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile3">14,412 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile3">139,000+(2020)
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile3">2006; &nbsp;&nbsp;&nbsp;</div>
+                        <div class="profile3">Mukesh Ambani</div>
+                        <div class="profile3">US$1.3 billion </div>
+                        <div class="profile3">
+                            Retail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div class="profile3">www.relianceretail.com</div>
+                    </div>
+
+                </div>
+                <div class="MidBottom">
+                    <p class="MidBottom1">Lorem ipsum, dolor sit consectetur adipisicing veniam quia earum</p><br>
+                    <p class="MidBottom2">omnis ea aperiam, fuga illum impedit, accusantium id veniam ex earum doctor.
+                    </p><br>
+                    <p class="MidBottom3"> consequatur sed est ipsum assumenda maiores esse adipisci.</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h3>About us</h3>
+            <div class="RightTop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi explicabo similique
+                animi
+                accusantium molestias nam commodi quidem iste expedita magnam. Molestias dolorem veniam odit? Voluptatum
+                quasi veniam omnis dolore minima, dignissimos ipsum, quae cum esse saepe cupiditate, est illum similique
+                expedita hic eum aspernatur nobis accusamus labore asperiores. Quisquam, doloribus.</div>
+        </div>
+    </div>
+</body>
+
+</html>
